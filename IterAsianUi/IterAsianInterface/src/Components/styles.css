@@ -1,0 +1,282 @@
+/* Iphone11promax3 */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+
+p {
+  margin: 0;
+}
+
+.clip-contents {
+  overflow: hidden;
+}
+
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-hcenter {
+  justify-content: center;
+}
+
+.flex-col-hcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row-vstart-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-row-vcenter-hcenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row-vcenter-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.iphone-11-pro-max3 {
+  position: relative;
+  background-color: rgba(244, 244, 244, 1);
+  width: 414px;
+  height: 896px;
+}
+
+.settings {
+  position: absolute;
+  top: 799px;
+  left: 355px;
+  width: 32px;
+  height: 32px;
+}
+
+.calendar-remove {
+  position: absolute;
+  top: 413px;
+  left: 142px;
+  width: 42px;
+  height: 42px;
+}
+
+.calendar-add {
+  position: absolute;
+  top: 413px;
+  left: 228px;
+  width: 43px;
+  height: 43px;
+}
+
+.calendar-question {
+  position: absolute;
+  top: 411px;
+  left: 184px;
+  width: 46px;
+  height: 46px;
+}
+
+.txt-638 {
+  position: absolute;
+  top: 366px;
+  left: 70px;
+  font-size: 36px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  width: 275px;
+  height: 114px;
+  word-wrap: break-word;
+}
+
+.group-615 {
+  position: absolute;
+  top: 71px;
+  height: 818px;
+  width: 100%;
+}
+
+.group-415 {
+  padding: 65px 58px 47px 58px;
+  margin-bottom: 169px;
+  box-sizing: border-box;
+  border-radius: 129px;
+  background: linear-gradient(
+    180deg,
+    rgba(72, 178, 255, 1) 0%,
+    rgba(181, 224, 255, 0.63) 66%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border: 1px solid rgba(255, 255, 255, 1);
+  height: 258px;
+  width: fit-content;
+}
+
+.iterasian-_upscayled-_-4x-2 {
+  width: 100%;
+  height: 100%;
+}
+
+.normalButton {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.normalButton:hover {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.buttons {
+  margin-bottom: 18px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgb(0, 0, 0);
+  width: fit-content;
+}
+
+.base-button {
+  padding: 9px 19px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid rgba(189, 189, 189, 1);
+  width: 100%;
+  height: 100%;
+}
+
+.left-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.label {
+  padding: 0px 7px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.txt-191 {
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  line-height: 175%;
+  color: rgba(0, 0, 0, 1);
+  word-wrap: break-word;
+}
+
+.label {
+  padding: 0px 7px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.txt-191 {
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  line-height: 175%;
+  color: rgba(0, 0, 0, 1);
+  word-wrap: break-word;
+}
+
+.buttons-1 {
+  margin-bottom: 19px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid black;
+  width: fit-content;
+}
+
+.base-button {
+  padding: 9px 19px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid rgba(189, 189, 189, 1);
+  width: 100%;
+  height: 100%;
+}
+
+.label {
+  padding: 0px 7px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.txt-191 {
+  font-size: 16px;
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  line-height: 175%;
+  color: rgba(0, 0, 0, 1);
+  word-wrap: break-word;
+}
+
+.upper-bar {
+  position: absolute;
+  top: -0.89%;
+  bottom: 94.98%;
+  left: 0%;
+  right: 0%;
+  padding: 19px 33px 12px 43px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0);
+  height: 53px;
+  width: 100%;
+}
+
+.time-style {
+  margin-right: 200px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+.txt-679 {
+  font-size: 17px;
+  font-family: PingFang SC, sans-serif;
+  font-weight: 600;
+  line-height: 129%;
+  color: rgba(0, 0, 0, 1);
+  text-align: center;
+  width: 55px;
+  word-wrap: break-word;
+}
+
+.cellular-connection {
+  width: 20.23px;
+  height: 12px;
+  margin-right: 8px;
+}
+
+.wifi {
+  width: 18.06px;
+  height: 12.1px;
+  margin-right: 11px;
+}
+
+.battery {
+  width: 27.23px;
+  height: 13px;
+}
+
+a {
+ color: black; 
+}
