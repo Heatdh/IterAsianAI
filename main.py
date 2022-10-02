@@ -62,10 +62,10 @@ def anomaly_detection(data):
     return data
 
 if __name__ == "__main__":
-    dir_csv_test = 'datasets/test_set/'
+    dir_csv_test = 'test_set/'
     files = [f for f in os.listdir(dir_csv_test) if f.endswith('.csv')]
     dict_analysed={}
-    dir_csv_test_analysed = 'datasets/test_set_analysed/'
+    dir_csv_test_analysed = 'test_set_analysed/'
     if not os.path.exists(dir_csv_test_analysed): # will make it to overwrite after
         os.makedirs(dir_csv_test_analysed)
     for file in files:
