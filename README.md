@@ -5,3 +5,27 @@ Based on data collected from smartwatches, we are interested in analyzing the me
 
 # Market / Business Model
 Our ideal target group are health-conscious elderly people (>age 65) who already own a smartwatch and are interested in detecting diseases like COVID-19 early on. To further tune the model based on the hardware-specifications of newly released smartwatches and to have access to more data, we are aiming to partner up with hospitals, medical professionals and smartwatch producers. For our business model we chose a monthly-based subscription (recurring revenue) and to make the app free exclusively for certain partners.
+
+
+
+## Project dependencies 
+To install the project libraries it is enough to run 
+
+```bash
+pip install -r requirements.txt
+``` 
+
+Ps: it is recommended to make a new virtual environment so you don't overwrite library versions used in other projects.
+This can be done <br /> 
+On Windows
+```bash
+py -m venv <name_of_virtualenv>
+//activate it 
+<name_of_virtualenv>\Scripts\activate.bat
+
+```
+on linux
+```bash
+python3 -m venv <name_of_virtualenv>
+source <name_of_virtualenv>/bin/activate
+``` 
